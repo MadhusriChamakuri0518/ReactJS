@@ -11,15 +11,15 @@ class UserGreeting extends Component {
     }
 
     render() {
-        
+
         // using short circuit approach
         // return this.state.isLoggedIn && <div>hello battu</div>
 
         // using ternary operation
         return (this.state.isLoggedIn) ? (
-        <div>battu ochavamma</div>
+        <div>Hi Madhusri</div>
         ):(
-        <div>evadraa nuvvu</div>
+        <div>Hello user</div>
         )
 
 
