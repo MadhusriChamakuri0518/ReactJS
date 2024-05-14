@@ -11,11 +11,21 @@ import ClassClick from './components/EventHandling/ClassClick';
 import EventBind from './components/EventHandling/EventBind';
 import UserGreeting from './components/ConditionalRendering/UserGreeting';
 import StyleSheet from './components/StylingAndCSS/StyleSheet';
+import PostList from './components/HTTP/PostList';
+import LifecycleA from './components/componentLifecycle/componentMounting/LifecycleA';
+import FragmentDemo from './components/Fragments/FragmentDemo';
+import Table from './components/Fragments/Table';
+
+
 
 function App() {
-  return (
+  return ( 
     <div className="App">
-      <StyleSheet/>
+      <Table/>
+      {/* <FragmentDemo/> */}
+      {/* <LifecycleA/>
+      <PostList/> */}
+      {/* <StyleSheet primary={true} /> */}
       {/* <UserGreeting/> */}
       {/* <Wish name="Samaira" age="24" />
       <Wish name="Yashni" age="21" />
